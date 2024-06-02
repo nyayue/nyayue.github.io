@@ -41,7 +41,6 @@
   }
 
 .active {
-    text-decoration: underline;
     all: unset;
     background-color: var(--black);
     padding: 6px 12px;
