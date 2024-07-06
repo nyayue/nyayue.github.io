@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Profile</title>
+    <link rel="stylesheet" href="discord.css">
+    <link rel="icon" href="img/discord.png" type="image/png">
+</head>
+<body>
+    <div class="frame">
+        <div id="overlay" class="nitrooverlay"></div>
+        <div class="inner">
+            <div class="blocker"></div>
+            <div class="banner">
+                <div class="circle"></div>
+            </div>
+            <div class="avatar"></div>
+            <div class="avataroverlay"></div>
+            <div class="profile">
+                <img class="profileicon" src="img/discord.png"></img>
+                View in Discord
+            </div>
+            <a id="fallback" href="https://discord.com/users/835619561079963699" style="display: none">Open Discord in Browser</a>
+            
+            <div class="bubble1"></div>
+            <div class="bubble2"></div>
+            <div class="thinkbubble">
+                <img src="https://cdn.discordapp.com/emojis/998751915137568809.webp" class="bubbleicon"><img>
+                Best Vex EUW (fueled by Nightcore and Energy)
+            </div>
+            <div class="name">Yue</div>
+            <div class="status">
+                nyayue <div class="dot"></div> Let me She/Them tiddies
+                <div class="statusicons">
+                    <img class="badge" src="img/assets/discord/bravery.png"></img>
+                    <img class="badge" src="img/assets/discord/nitrosub.png"></img>
+                    <img class="badge" src="img/assets/discord/nitroboost.png"></img>
+                </div>
+            </div>
+            <div class="bio">
+                <div class="titles">
+                    <div class="aboutme">About Me</div>
+                    <div class="friends">Mutual Friends</div>
+                    <div class="servers">Mutual Servers</div>
+                </div>
+                <div class="active"></div>
+                <div class="devider"></div>
+                <div class="biotext">
+                    <p>
+                        <span class="link">https://nyayue.github.io/</span> <br>
+                        <strong>Personal Roles</strong><br>
+                        <span class="roles">
+                            <span class="inline"> 🟠 nya </span>
+                            <span class="inline"> ✛ </span>
+                        </span> <br>
+                        <span class="link">https://youtu.be/8g6BDeNxZAs</span> <br>
+                        [Nightcore] Not Gonna Die <br>
+                        0:00 |───────── 4:14 <br>
+                        ᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▮▮▮ <br>
+                    </p>
+                </div>
+                <div class="membersince">Member Since</div>
+                <div class="date">Apr 24, 2021</div>
+                <div class="connections">
+                    <div>
+                        <span class=connectiontext>Connections</span> <br>
+                    </div>
+                    <div class="connections2">
+                        <div class="connection">
+                            <img class="connectionicon" src="img/assets/discord/github.png"></img>
+                            nyayue
+                            <svg role="img" width="24" height="24" class="rotate">
+                                <polygon fill="black" fill-rule="nonzero" points="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8"></polygon>
+                            </svg>
+                        </div>
+                        <div class="connection">
+                            <img class="connectionicon" src="img/assets/discord/league.png"></img>
+                            yue#nya
+                        </div>
+                    </div>
+                    <div class="connections3">
+                        <div class="connection">
+                            <img class="connectionicon" src="img/assets/discord/riot.png"></img>
+                            yue#nya
+                        </div>
+                    </div>
+                </div>
+            </di1v>
+        </div>
+        
+        <div class="profileclick" onclick="discordlink()"></div>
+        <div class="websiteclick" onclick="websitelink()"></div>
+        <div class="musicclick" onclick="musiclink()"></div>
+        <div class="githubclick" onclick="githublink()"></div>
+
+    </div>
+
+    <script>
+
+        function githublink() {
+            window.location.href = "https://github.com/nyayue"
+        }
+
+        function websitelink() {
+            window.location.href = "https://nyayue.github.io/";
+        }
+
+        function musiclink() {
+            window.location.href = "https://youtu.be/8g6BDeNxZAs"
+        }
+
+        function discordlink() {
+            var start = Date.now();
+            window.location.href = "discord://discord.com/users/835619561079963699";
+            setTimeout(function() {
+                if (Date.now() - start < 2000) {
+                    document.getElementById('fallbackLink').click();
+                }
+            }, 1500);
+        }
+
+        const overlay = document.getElementById('overlay');
+
+        function pauseOverlay() {
+            overlay.style.backgroundImage = 'url()';
+            setTimeout(switchOverlay, 5762);
+        }
+
+        function switchOverlay() {
+            overlay.style.backgroundImage = 'url(img/assets/discord/loop.png)';
+            setTimeout(pauseOverlay, 2881)
+        }
+        setTimeout(pauseOverlay, 2880)
+
+    </script>
+</body>
+</html>
