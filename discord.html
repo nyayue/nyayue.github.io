@@ -100,25 +100,20 @@
     <script>
 
         function githublink() {
-            window.location.href = "https://github.com/nyayue"
+            window.open('https://github.com/nyayue', '_blank');
         }
 
         function websitelink() {
-            window.location.href = "https://nyayue.github.io/";
+            
+            window.open('https://nyayue.github.io/', '_blank');
         }
 
         function musiclink() {
-            window.location.href = "https://youtu.be/8g6BDeNxZAs"
+            window.open('https://youtu.be/8g6BDeNxZAs', '_blank');
         }
 
         function discordlink() {
-            var start = Date.now();
             window.location.href = "discord://discord.com/users/835619561079963699";
-            setTimeout(function() {
-                if (Date.now() - start < 2000) {
-                    document.getElementById('fallbackLink').click();
-                }
-            }, 1500);
         }
 
         const overlay = document.getElementById('overlay');
