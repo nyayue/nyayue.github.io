@@ -1,0 +1,47 @@
+
+:root {
+    --black: hsl(0, 0%, 13%);
+    --red: hsl(12, 90%, 63%);
+    --red2: hsl(12, 93%, 71%);
+    --red-shadow: hsl(12, 100%, 60%);
+    --white: hsl(0, 0%, 96%);
+}
+
+
+body, html {
+  background-color: var(--black);
+  height: 100%;
+  margin: 0;
+}
+
+.showcase {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  background-color: var(--black);
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--red);
+  box-shadow: 0 0 4px var(--red-shadow);
+  font-size: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.container:first-child {
+  margin-left: 0; 
+}
+.container:last-child {
+  margin-right: 0; 
+}
+
+.img {
+  border-radius: 100px;
+}
