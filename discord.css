@@ -200,10 +200,6 @@ body, html {
     left: 16px;
     right: 16px
 }
-.link {
-    cursor: pointer;
-    color: blue;
-}
 .titles {
     position: absolute;
     width: 90%;
@@ -259,6 +255,9 @@ body, html {
     position: absolute;
     left: 2%;
     top: 60%;
+}
+.link {
+    color: blue;
 }
 .connections {
     position: absolute;
@@ -325,8 +324,8 @@ body, html {
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 250px;
-    top: 665px;
+    left: 252px;
+    top: 687px;
     z-index: 101;
     cursor: pointer;
 }
@@ -335,7 +334,7 @@ body, html {
     height: 16px;
     position: absolute;
     left: 28px;
-    top: 408px;
+    top: 428px;
     z-index: 101;
     cursor: pointer;
 }
@@ -344,7 +343,7 @@ body, html {
     height: 16px;
     position: absolute;
     left: 28px;
-    top: 481px;
+    top: 501px;
     z-index: 101;
     cursor: pointer;
 }
