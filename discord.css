@@ -257,21 +257,21 @@ body, html {
 }
 .membersince {
     position: relative;
-    top: 150px;
+    top: 160px;
     left: 2%;
     font-size: 12px;
 }
 .date {
     position: relative;
     left: 2%;
-    top: 160px;
+    top: 170px;
 }
 .link {
     color: blue;
 }
 .connections {
     position: relative;
-    top: 180px;
+    top: 190px;
     height: auto;
     left: 2%;
 }
