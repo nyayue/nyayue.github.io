@@ -250,7 +250,7 @@ body, html {
     justify-content: left;
 }
 .inline {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgb(40, 40, 40, 1);
     font-size: 13px;
     padding: 1px 10px;
     border-radius: 4px;
