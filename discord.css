@@ -293,7 +293,7 @@ body, html {
     transform: rotate(45deg);
     transform-origin: center;
     position: absolute;
-    left: 42%;
+    left: 39%;
 }
 .connectiontext {
     font-size: 12px;
@@ -334,7 +334,7 @@ body, html {
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 265px;
+    left: 39%;
     top: 537px;
     z-index: 101;
     cursor: pointer;
