@@ -246,7 +246,7 @@ body, html {
 .roles {
     gap: 4px;
     display: flex;
-    width: 30px;
+    width: 45px;
     justify-content: left;
 }
 .inline {
