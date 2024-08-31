@@ -313,12 +313,6 @@ body, html {
     align-items: center;
     display: flex;
 }
-.connectionicon {
-    height: 16px;
-    width: 16px;
-    position: relative;
-    top: 4px;
-}
 .blocker {
     top: 0;
     left: 0;
