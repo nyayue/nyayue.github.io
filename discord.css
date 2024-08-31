@@ -347,3 +347,7 @@ body, html {
     top: 4px;
     position: relative;
 }
+
+.connectiontext2 {
+    bottom: 5px;
+}
