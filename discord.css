@@ -308,6 +308,9 @@ body, html {
     padding: 9px 8px;
     width: 241px;
     height: 24px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
 }
 .connectionicon {
     height: 16px;
@@ -346,8 +349,4 @@ body, html {
     height: 20px;
     top: 4px;
     position: relative;
-}
-
-.connectiontext2 {
-    bottom: 5px;
 }
