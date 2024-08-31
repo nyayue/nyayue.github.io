@@ -344,4 +344,6 @@ body, html {
 .bioemote {
     width: 20px;
     height: 20px;
+    top: 4px;
+    position: relative;
 }
