@@ -56,7 +56,7 @@ async function getstats(summoner, tag, region) {
             answer2.textContent = `Total Damage: ${stats.totaldamage}`;
             answer3.textContent = `Total True Damage: ${stats.totaltrue}`;
             answer4.textContent = `Total Physical Damage: ${stats.totalphysical}`;
-            answer5.textContent = `Total Magic Damage: ${stats.totalmaig}`;
+            answer5.textContent = `Total Magic Damage: ${stats.totalmagic}`;
             answer6.textContent = `Average Damage: ${stats.avgdamage}`;
             answer7.textContent = `Average True Damage: ${stats.avgtrue}`;
             answer8.textContent = `Average Physical Damage: ${stats.avgphysical}`;
