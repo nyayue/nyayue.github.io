@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.statsloaded {
+    height: 0%;
+    width: 0%;
+    background-color: rgb(35, 35, 35);
+}
+
+.inputsn, .opendc, .region, .search {
+    margin: 5px;
+    background-color: rgb(60, 60, 60);
+    color: rgb(220, 220, 220);
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border: 0px solid rgb(220, 220, 220);
+}
+.region {
+    width: 13%;
+}
+.inputsn {
+    width: 75%;
+}
+.search {
+    width: 6%;
+    text-align: center;
+}
+.opendc {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.input {
+    background-color: rgb(60, 60, 60);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 100px;
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 30%;
+}
+
+.reply {
+    display: none;
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 15%;
+    height: 80%;
+    background-color: rgb(60, 60, 60);
+    color: rgb(220, 220, 220);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 30px;
+}
+
+.searchreply {
+    margin: 0;
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: Arial;
+}
+.searchreply1 {
+    margin-top: 2%;
+    font-size: 30px;
+}
+.error {
+    color: rgb(255, 30, 30);
+    font-size: 30px;
+    text-align: center;
+}
