@@ -52,7 +52,7 @@ async function getstats(summoner, tag, region) {
             let answer8 = document.createElement("p");
             let answer9 = document.createElement("p");
 
-            answer1.textContent = `${summoner}#${tag}'s Stats:`;
+            answer1.textContent = `${summoner}#${tag}'s Stats from the past 18 games:`;
             answer2.textContent = `Total Damage: ${stats.totaldamage}`;
             answer3.textContent = `Total True Damage: ${stats.totaltrue}`;
             answer4.textContent = `Total Physical Damage: ${stats.totalphysical}`;
