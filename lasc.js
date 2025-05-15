@@ -103,7 +103,7 @@ async function getstats(summoner, tag, region) {
             
             answer.forEach(element => document.getElementById("reply").appendChild(element));
 
-            loadChart(stats.totaltrue, stats.totalphysical, stats.totalmagic);
+            loadChart(stats.totalphysical, stats.totalmagic, stats.totaltrue);
         } else {
             let answer1 = document.createElement("p");
             let answer2 = document.createElement("p");
