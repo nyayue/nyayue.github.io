@@ -6,6 +6,29 @@ function deletereply() {
     document.querySelectorAll("p.searchreply").forEach(del => del.remove());
 };
 
+function loadchart(p, m, t) {
+  const ctx = document.getElementById('damageChart').getContext('2d');
+  const damageChart= new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ['Physical', 'Magic', 'True'],
+      datasets: [{
+        data: [p, m, t],
+        backgroundColor: ['#FF6384', '#36A2EB', '#ffffff'],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: false,
+      plugins: {
+        legend: {
+          display: false
+        }
+      }
+    }
+  });
+}
+
 function searchss() {
 
     const input = search.value.trim();
