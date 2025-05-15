@@ -6,7 +6,7 @@ function deletereply() {
     document.querySelectorAll("p.searchreply").forEach(del => del.remove());
 };
 
-function loadchart(p, m, t) {
+function loadChart(p, m, t) {
   const ctx = document.getElementById('damageChart').getContext('2d');
   const damageChart= new Chart(ctx, {
     type: 'pie',
