@@ -100,6 +100,8 @@ async function getstats(summoner, tag, region) {
             answer10.id = "damageChart";
 
             answer = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10];
+
+            loadChart(stats.totaltrue, stats.totalphysical, stats.totalmagic);
         } else {
             let answer1 = document.createElement("p");
             let answer2 = document.createElement("p");
