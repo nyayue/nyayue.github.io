@@ -68,12 +68,22 @@ body {
     font-size: 18px;
     font-family: Arial;
 }
+
 .searchreply1 {
     margin-top: 2%;
     font-size: 30px;
 }
+
 .error {
     color: rgb(255, 30, 30);
     font-size: 30px;
     text-align: center;
+}
+
+.chart {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  top: auto;
+  right: auto;
 }
