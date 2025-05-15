@@ -51,6 +51,7 @@ async function getstats(summoner, tag, region) {
             let answer7 = document.createElement("p");
             let answer8 = document.createElement("p");
             let answer9 = document.createElement("p");
+            let answer10 = document.creatElement("canvas");
 
             answer1.textContent = `${summoner}#${tag}'s Stats from the past 18 games:`;
             answer2.textContent = `Total Damage: ${stats.totaldamage}`;
@@ -71,8 +72,11 @@ async function getstats(summoner, tag, region) {
             answer7.classList.add("searchreply");
             answer8.classList.add("searchreply");
             answer9.classList.add("searchreply");
+            answer10.classList.add("searchreply", "chart");
 
-            answer = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9];
+            answer10.id = "damageChart";
+
+            answer = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10];
         } else {
             let answer1 = document.createElement("p");
             let answer2 = document.createElement("p");
