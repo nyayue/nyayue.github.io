@@ -84,6 +84,7 @@ body {
   width: 150px;
   height: 150px;
   margin: 10px;
-  top: auto;
-  right: auto;
+  top: 10px;
+  right: 10px;
+  position: absolute;
 }
