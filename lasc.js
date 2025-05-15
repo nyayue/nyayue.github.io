@@ -100,6 +100,8 @@ async function getstats(summoner, tag, region) {
             answer10.id = "damageChart";
 
             answer = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10];
+            
+            answer.forEach(element => document.getElementById("reply").appendChild(element));
 
             loadChart(stats.totaltrue, stats.totalphysical, stats.totalmagic);
         } else {
@@ -112,8 +114,9 @@ async function getstats(summoner, tag, region) {
             answer2.classList.add("searchreply", "error");
 
             answer = [answer1, answer2]
+            
+            answer.forEach(element => document.getElementById("reply").appendChild(element));
         }
-        answer.forEach(element => document.getElementById("reply").appendChild(element));
     } catch(err) {
             console.log("ERROR WHY??????????\n" + err);
     }
