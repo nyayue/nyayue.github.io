@@ -94,14 +94,13 @@ function deleteLoad() {
 
 function fetching() {
     let loading = document.createElement("p");
-    let gif = document.createElement ("img");
+    let gif = document.createElement ("div");
 
     loading.textContent = "Fetching Stats...";
-    gif.src = "./img/loading.gif";
 
 
     loading.classList.add("loading");
-    gif.classList.add("loading");
+    gif.classList.add("loading", "loadgif");
 
     document.getElementById("reply").appendChild(loading, gif);
 }
