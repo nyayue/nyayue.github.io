@@ -128,3 +128,11 @@ body {
     width: auto;
     position: absolute;
 }
+
+.loadgif {
+    background-image: url('img/loading.gif');
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+}
