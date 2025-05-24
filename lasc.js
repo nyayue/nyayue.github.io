@@ -94,15 +94,19 @@ function deleteLoad() {
 
 function fetching() {
     let loading = document.createElement("p");
-    let loadgif = document.createElement ("div");
+    let gif = document.createElement ("div");
 
     loading.textContent = "Fetching Stats...";
 
 
     loading.classList.add("loading");
-    loadgif.classList.add("loading", "loadgif");
+    gif.classList.add("loading", "loadgif");
 
-    document.getElementById("reply").appendChild(loading, loadgif);
+    let idkhowtonamethisvar = [loading, gif]
+
+    idkhowtonamethisvar.forEach(load =>
+        document.getElementById("reply").appendChild(load)
+    )
 }
 
 async function getstats(summoner, tag, region) {
